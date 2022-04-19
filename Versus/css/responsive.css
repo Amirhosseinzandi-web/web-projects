@@ -1,0 +1,97 @@
+@media screen and (min-width: 757px) and (max-width: 992px) {
+  header .header-one > .hamburger-display {
+    display: none;
+  }
+  header .header-one h2 {
+    margin-left: 10%;
+  }
+  header .header-one .menu-two {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    visibility: visible;
+  }
+  article {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 30px;
+  }
+  article > figure {
+    width: 230px;
+    height: 173px;
+  }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1399px) {
+  header {
+    height: 100vh;
+  }
+  header > .header-one .hamburger-display {
+    display: none;
+  }
+  header > .header-one h2 {
+    margin-left: 10%;
+  }
+  header > .header-one .menu-two {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    visibility: visible;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  article {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 70px;
+  }
+  article > figure {
+    width: 302px;
+    height: 226px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  article {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    padding: 0 50%;
+  }
+  article > figure {
+    width: 302px;
+    height: 226px;
+  }
+  .hamburger-display {
+    display: none;
+  }
+  .menu-two {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    visibility: visible !important;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
